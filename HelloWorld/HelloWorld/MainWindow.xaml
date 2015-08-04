@@ -1,0 +1,14 @@
+﻿<Window x:Class="HelloWorld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Hello World" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="56*"/>
+            <ColumnDefinition Width="32*"/>
+            <ColumnDefinition Width="431*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Click Me!" Grid.Column="2" HorizontalAlignment="Left" Margin="51,81,0,0" VerticalAlignment="Top" Width="213" Height="69" Click="Button_Click"/>
+
+    </Grid>
+</Window>
