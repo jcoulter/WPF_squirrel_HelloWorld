@@ -1,0 +1,104 @@
+﻿2015-08-04 12:48:47> Program: Starting Squirrel Updater: --releasify C:\dev\helloworld\HelloWorld\HelloWorld
+2015-08-04 12:48:47> Program: Bootstrapper EXE found at:c:\dev\helloworld\HelloWorld\packages\squirrel.windows.0.99.2\tools\Setup.exe
+2015-08-04 12:48:47> Unhandled exception: System.UnauthorizedAccessException: Access to the path 'C:\dev\helloworld\HelloWorld\HelloWorld' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2015-08-04 12:49:07> Program: Starting Squirrel Updater: --releasify C:\dev\helloworld\HelloWorld\HelloWorld
+2015-08-04 12:49:07> Program: Bootstrapper EXE found at:c:\dev\helloworld\HelloWorld\packages\squirrel.windows.0.99.2\tools\Setup.exe
+2015-08-04 12:49:07> Unhandled exception: System.UnauthorizedAccessException: Access to the path 'C:\dev\helloworld\HelloWorld\HelloWorld' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2015-08-04 12:49:21> Program: Starting Squirrel Updater: --releasify C:\dev\helloworld\HelloWorld
+2015-08-04 12:49:21> Program: Bootstrapper EXE found at:c:\dev\helloworld\HelloWorld\packages\squirrel.windows.0.99.2\tools\Setup.exe
+2015-08-04 12:49:21> Unhandled exception: System.UnauthorizedAccessException: Access to the path 'C:\dev\helloworld\HelloWorld' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2015-08-04 12:50:26> Program: Starting Squirrel Updater: --releasify C:\dev\helloworld\HelloWorld
+2015-08-04 12:50:26> Program: Bootstrapper EXE found at:c:\dev\helloworld\HelloWorld\packages\squirrel.windows.0.99.2\tools\Setup.exe
+2015-08-04 12:50:26> Unhandled exception: System.UnauthorizedAccessException: Access to the path 'C:\dev\helloworld\HelloWorld' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2015-08-04 12:52:18> Program: Starting Squirrel Updater: --releasify C:\dev\helloworld\HelloWorld\HelloWorld.1.0.0.0.nupkg
+2015-08-04 12:52:18> Program: Bootstrapper EXE found at:c:\dev\helloworld\HelloWorld\packages\squirrel.windows.0.99.2\tools\Setup.exe
+2015-08-04 12:52:18> Program: Creating release package: C:\dev\helloworld\HelloWorld\Releases\HelloWorld.1.0.0.0.nupkg
+2015-08-04 12:52:18> ReleasePackage: Creating release package: C:\dev\helloworld\HelloWorld\Releases\HelloWorld.1.0.0.0.nupkg => C:\dev\helloworld\HelloWorld\Releases\HelloWorld-1.0.0.0-full.nupkg
+2015-08-04 12:52:18> ReleasePackage: Couldn't find file for package in .: squirrel.windows
+2015-08-04 12:52:18> Unhandled exception: System.Exception: Couldn't find file for package in .: squirrel.windows
+   at Squirrel.ReleasePackage.<>c__DisplayClass1d.<findAllDependentPackages>b__1a(PackageDependency dependency)
+   at System.Linq.Enumerable.<SelectManyIterator>d__14`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Squirrel.ReleasePackage.findAllDependentPackages(IPackage package, IPackageRepository packageRepository, HashSet`1 packageCache, FrameworkName frameworkName)
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2015-08-04 12:53:39> Program: Starting Squirrel Updater: --releasify C:\dev\helloworld\HelloWorld\HelloWorld.1.0.0.0.nupkg
+2015-08-04 12:53:39> Program: Bootstrapper EXE found at:c:\dev\helloworld\HelloWorld\packages\squirrel.windows.0.99.2\tools\Setup.exe
+2015-08-04 12:53:39> Program: Creating release package: C:\dev\helloworld\HelloWorld\Releases\HelloWorld.1.0.0.0.nupkg
+2015-08-04 12:53:39> ReleasePackage: Creating release package: C:\dev\helloworld\HelloWorld\Releases\HelloWorld.1.0.0.0.nupkg => C:\dev\helloworld\HelloWorld\Releases\HelloWorld-1.0.0.0-full.nupkg
+2015-08-04 12:53:39> ReleasePackage: Couldn't find file for package in .: squirrel.windows
+2015-08-04 12:53:39> Unhandled exception: System.Exception: Couldn't find file for package in .: squirrel.windows
+   at Squirrel.ReleasePackage.<>c__DisplayClass1d.<findAllDependentPackages>b__1a(PackageDependency dependency)
+   at System.Linq.Enumerable.<SelectManyIterator>d__14`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Squirrel.ReleasePackage.findAllDependentPackages(IPackage package, IPackageRepository packageRepository, HashSet`1 packageCache, FrameworkName frameworkName)
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2015-08-04 12:53:59> Program: Starting Squirrel Updater: --releasify C:\dev\helloworld\HelloWorld\HelloWorld.1.0.0.0.nupkg
+2015-08-04 12:53:59> Program: Bootstrapper EXE found at:c:\dev\helloworld\HelloWorld\packages\squirrel.windows.0.99.2\tools\Setup.exe
+2015-08-04 12:53:59> Program: Creating release package: C:\dev\helloworld\HelloWorld\Releases\HelloWorld.1.0.0.0.nupkg
+2015-08-04 12:54:00> ReleasePackage: Creating release package: C:\dev\helloworld\HelloWorld\Releases\HelloWorld.1.0.0.0.nupkg => C:\dev\helloworld\HelloWorld\Releases\HelloWorld-1.0.0.0-full.nupkg
+2015-08-04 12:54:00> ReleasePackage: Couldn't find file for package in .: squirrel.windows
+2015-08-04 12:54:00> Unhandled exception: System.Exception: Couldn't find file for package in .: squirrel.windows
+   at Squirrel.ReleasePackage.<>c__DisplayClass1d.<findAllDependentPackages>b__1a(PackageDependency dependency)
+   at System.Linq.Enumerable.<SelectManyIterator>d__14`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Squirrel.ReleasePackage.findAllDependentPackages(IPackage package, IPackageRepository packageRepository, HashSet`1 packageCache, FrameworkName frameworkName)
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2015-08-04 13:04:33> Program: Starting Squirrel Updater: --releasify C:\dev\helloworld\HelloWorld\HelloWorld.1.0.0.0.nupkg
+2015-08-04 13:04:33> Program: Bootstrapper EXE found at:c:\dev\helloworld\HelloWorld\packages\squirrel.windows.0.99.2\tools\Setup.exe
+2015-08-04 13:04:33> Program: Creating release package: C:\dev\helloworld\HelloWorld\Releases\HelloWorld.1.0.0.0.nupkg
+2015-08-04 13:04:33> ReleasePackage: Creating release package: C:\dev\helloworld\HelloWorld\Releases\HelloWorld.1.0.0.0.nupkg => C:\dev\helloworld\HelloWorld\Releases\HelloWorld-1.0.0.0-full.nupkg
+2015-08-04 13:04:33> ReleasePackage: Couldn't find file for package in .: squirrel.windows
+2015-08-04 13:04:33> Unhandled exception: System.Exception: Couldn't find file for package in .: squirrel.windows
+   at Squirrel.ReleasePackage.<>c__DisplayClass1d.<findAllDependentPackages>b__1a(PackageDependency dependency)
+   at System.Linq.Enumerable.<SelectManyIterator>d__14`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Squirrel.ReleasePackage.findAllDependentPackages(IPackage package, IPackageRepository packageRepository, HashSet`1 packageCache, FrameworkName frameworkName)
+   at Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   at Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon)
+   at Squirrel.Update.Program.executeCommandLine(String[] args)
+   at Squirrel.Update.Program.main(String[] args)
+2015-08-04 13:05:02> Program: Starting Squirrel Updater: --releasify C:\dev\helloworld\HelloWorld\HelloWorld.1.0.0.0.nupkg
+2015-08-04 13:05:03> Program: Bootstrapper EXE found at:c:\dev\helloworld\HelloWorld\packages\squirrel.windows.0.99.2\tools\Setup.exe
+2015-08-04 13:05:03> Program: Creating release package: C:\dev\helloworld\HelloWorld\Releases\HelloWorld.1.0.0.0.nupkg
+2015-08-04 13:05:03> ReleasePackage: Creating release package: C:\dev\helloworld\HelloWorld\Releases\HelloWorld.1.0.0.0.nupkg => C:\dev\helloworld\HelloWorld\Releases\HelloWorld-1.0.0.0-full.nupkg
+2015-08-04 13:05:03> ReleasePackage: Extracting dependent packages: []
+2015-08-04 13:05:03> ReleasePackage: Removing unnecessary data
+2015-08-04 13:05:03> ReleasePackage: No release notes found in C:\Users\jcoulter\AppData\Local\SquirrelTemp\tempa\HelloWorld.nuspec
+2015-08-04 13:05:03> Program: Building embedded zip file for Setup.exe

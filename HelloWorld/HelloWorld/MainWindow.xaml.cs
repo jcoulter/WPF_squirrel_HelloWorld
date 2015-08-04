@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+//using Squirrel;
 
 namespace HelloWorld {
     /// <summary>
@@ -23,6 +24,9 @@ namespace HelloWorld {
         }
 
         private void Button_Click(object sender, RoutedEventArgs e) {
+            //using (var mgr = new UpdateManager("https://path/to/my/update/folder")) {
+            //    await mgr.UpdateApp();
+            //}
             MessageBox.Show("Hello World");
         }
     }

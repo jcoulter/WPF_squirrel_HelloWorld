@@ -11,3 +11,15 @@ c:\dev\helloworld\HelloWorld\HelloWorld\obj\Debug\HelloWorld.Properties.Resource
 c:\dev\helloworld\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.GenerateResource.Cache
 c:\dev\helloworld\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
 c:\dev\helloworld\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+c:\dev\helloworld\HelloWorld\HelloWorld\bin\Debug\DeltaCompressionDotNet.dll
+c:\dev\helloworld\HelloWorld\HelloWorld\bin\Debug\DeltaCompressionDotNet.MsDelta.dll
+c:\dev\helloworld\HelloWorld\HelloWorld\bin\Debug\DeltaCompressionDotNet.PatchApi.dll
+c:\dev\helloworld\HelloWorld\HelloWorld\bin\Debug\ICSharpCode.SharpZipLib.dll
+c:\dev\helloworld\HelloWorld\HelloWorld\bin\Debug\Splat.dll
+c:\dev\helloworld\HelloWorld\HelloWorld\bin\Debug\Squirrel.dll
+c:\dev\helloworld\HelloWorld\HelloWorld\bin\Debug\System.Net.Http.Formatting.dll
+c:\dev\helloworld\HelloWorld\HelloWorld\bin\Debug\Newtonsoft.Json.dll
+c:\dev\helloworld\HelloWorld\HelloWorld\bin\Debug\ICSharpCode.SharpZipLib.xml
+c:\dev\helloworld\HelloWorld\HelloWorld\bin\Debug\Splat.pdb
+c:\dev\helloworld\HelloWorld\HelloWorld\bin\Debug\Squirrel.pdb
+c:\dev\helloworld\HelloWorld\HelloWorld\bin\Debug\System.Net.Http.Formatting.xml
