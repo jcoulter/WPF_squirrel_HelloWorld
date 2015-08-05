@@ -30,7 +30,7 @@ namespace HelloWorld {
         public MainWindow() {
             InitializeComponent();
             _bw.DoWork += bw_DoWork;
-            _bw.RunWorkerAsync(this);
+            _bw.RunWorkerAsync();
 
         }
 
@@ -39,11 +39,10 @@ namespace HelloWorld {
                 try {
                     using (var mgr = new UpdateManager(@"C:\dev\helloworld\HelloWorld\Releases", "HelloWorldSquirrel")) {
                         var updateInfo = await mgr.CheckForUpdate(false, progress => { });
-                        if (updateInfo == null || updateInfo.ReleasesToApply.Count == 0)
-                            return;
-
-                        await mgr.UpdateApp();
-                        Restart = true;
+                        if (updateInfo != null && updateInfo.ReleasesToApply.Count != 0) {
+                            await mgr.UpdateApp();
+                            Restart = true;                            
+                        }
                     }
                 } catch (Exception ex) {
                     Console.WriteLine(ex.StackTrace);
@@ -62,7 +61,7 @@ namespace HelloWorld {
             if (Restart) {
                 Restart_App();
             }
-            MessageBox.Show("I run 2! - " + Restart);
+            MessageBox.Show("I run - 11" + Restart);
         }
     }
 }
