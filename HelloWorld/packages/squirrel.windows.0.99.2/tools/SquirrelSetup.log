@@ -60,3 +60,64 @@
 2015-08-05 10:42:07> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
 2015-08-05 10:42:07> DeltaPackageBuilder: \lib\net45\System.Net.Http.Formatting.dll hasn't changed, writing dummy file
 2015-08-05 10:42:07> Program: Building embedded zip file for Setup.exe
+2015-08-05 14:05:20> Program: Starting Squirrel Updater: 
+2015-08-05 14:05:33> Program: Starting Squirrel Updater: --releasify .\HelloWorldSquirrel.1.0.4.nupkg
+2015-08-05 14:05:33> Program: Bootstrapper EXE found at:C:\dev\helloworld\HelloWorld\packages\squirrel.windows.0.99.2\tools\Setup.exe
+2015-08-05 14:05:33> Program: Creating release package: C:\dev\helloworld\HelloWorld\Releases\HelloWorldSquirrel.1.0.4.nupkg
+2015-08-05 14:05:33> ReleasePackage: Creating release package: C:\dev\helloworld\HelloWorld\Releases\HelloWorldSquirrel.1.0.4.nupkg => C:\dev\helloworld\HelloWorld\Releases\HelloWorldSquirrel-1.0.4-full.nupkg
+2015-08-05 14:05:33> ReleasePackage: Extracting dependent packages: []
+2015-08-05 14:05:33> ReleasePackage: Removing unnecessary data
+2015-08-05 14:05:33> DeltaPackageBuilder: Extracting .\Releases\HelloWorldSquirrel-1.0.3-full.nupkg and C:\dev\helloworld\HelloWorld\Releases\HelloWorldSquirrel-1.0.4-full.nupkg into C:\Users\jcoulter\AppData\Local\SquirrelTemp\tempb
+2015-08-05 14:05:33> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2015-08-05 14:05:33> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2015-08-05 14:05:33> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2015-08-05 14:05:33> DeltaPackageBuilder: Delta patching C:\Users\jcoulter\AppData\Local\SquirrelTemp\tempa\lib\net45\HelloWorld.exe => C:\Users\jcoulter\AppData\Local\SquirrelTemp\tempb\lib\net45\HelloWorld.exe
+2015-08-05 14:05:33> DeltaPackageBuilder: \lib\net45\HelloWorld.exe.config hasn't changed, writing dummy file
+2015-08-05 14:05:33> DeltaPackageBuilder: Delta patching C:\Users\jcoulter\AppData\Local\SquirrelTemp\tempa\lib\net45\HelloWorld.pdb => C:\Users\jcoulter\AppData\Local\SquirrelTemp\tempb\lib\net45\HelloWorld.pdb
+2015-08-05 14:05:34> DeltaPackageBuilder: \lib\net45\HelloWorld.vshost.exe.manifest hasn't changed, writing dummy file
+2015-08-05 14:05:34> DeltaPackageBuilder: \lib\net45\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2015-08-05 14:05:34> DeltaPackageBuilder: \lib\net45\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2015-08-05 14:05:34> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2015-08-05 14:05:34> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2015-08-05 14:05:34> DeltaPackageBuilder: \lib\net45\System.Net.Http.Formatting.dll hasn't changed, writing dummy file
+2015-08-05 14:05:34> Program: Building embedded zip file for Setup.exe
+2015-08-05 14:07:58> Program: Starting Squirrel Updater: --releasify .\HelloWorldSquirrel.1.0.5.nupkg
+2015-08-05 14:07:58> Program: Bootstrapper EXE found at:C:\dev\helloworld\HelloWorld\packages\squirrel.windows.0.99.2\tools\Setup.exe
+2015-08-05 14:07:59> Program: Creating release package: C:\dev\helloworld\HelloWorld\Releases\HelloWorldSquirrel.1.0.5.nupkg
+2015-08-05 14:07:59> ReleasePackage: Creating release package: C:\dev\helloworld\HelloWorld\Releases\HelloWorldSquirrel.1.0.5.nupkg => C:\dev\helloworld\HelloWorld\Releases\HelloWorldSquirrel-1.0.5-full.nupkg
+2015-08-05 14:07:59> ReleasePackage: Extracting dependent packages: []
+2015-08-05 14:07:59> ReleasePackage: Removing unnecessary data
+2015-08-05 14:07:59> DeltaPackageBuilder: Extracting .\Releases\HelloWorldSquirrel-1.0.4-full.nupkg and C:\dev\helloworld\HelloWorld\Releases\HelloWorldSquirrel-1.0.5-full.nupkg into C:\Users\jcoulter\AppData\Local\SquirrelTemp\tempb
+2015-08-05 14:07:59> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2015-08-05 14:07:59> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2015-08-05 14:07:59> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2015-08-05 14:07:59> DeltaPackageBuilder: Delta patching C:\Users\jcoulter\AppData\Local\SquirrelTemp\tempa\lib\net45\HelloWorld.exe => C:\Users\jcoulter\AppData\Local\SquirrelTemp\tempb\lib\net45\HelloWorld.exe
+2015-08-05 14:07:59> DeltaPackageBuilder: \lib\net45\HelloWorld.exe.config hasn't changed, writing dummy file
+2015-08-05 14:07:59> DeltaPackageBuilder: Delta patching C:\Users\jcoulter\AppData\Local\SquirrelTemp\tempa\lib\net45\HelloWorld.pdb => C:\Users\jcoulter\AppData\Local\SquirrelTemp\tempb\lib\net45\HelloWorld.pdb
+2015-08-05 14:07:59> DeltaPackageBuilder: \lib\net45\HelloWorld.vshost.exe.manifest hasn't changed, writing dummy file
+2015-08-05 14:07:59> DeltaPackageBuilder: \lib\net45\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2015-08-05 14:07:59> DeltaPackageBuilder: \lib\net45\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2015-08-05 14:07:59> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2015-08-05 14:07:59> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2015-08-05 14:07:59> DeltaPackageBuilder: \lib\net45\System.Net.Http.Formatting.dll hasn't changed, writing dummy file
+2015-08-05 14:07:59> Program: Building embedded zip file for Setup.exe
+2015-08-05 14:13:12> Program: Starting Squirrel Updater: --releasify .\HelloWorldSquirrel.1.0.6.nupkg
+2015-08-05 14:13:12> Program: Bootstrapper EXE found at:C:\dev\helloworld\HelloWorld\packages\squirrel.windows.0.99.2\tools\Setup.exe
+2015-08-05 14:13:12> Program: Creating release package: C:\dev\helloworld\HelloWorld\Releases\HelloWorldSquirrel.1.0.6.nupkg
+2015-08-05 14:13:12> ReleasePackage: Creating release package: C:\dev\helloworld\HelloWorld\Releases\HelloWorldSquirrel.1.0.6.nupkg => C:\dev\helloworld\HelloWorld\Releases\HelloWorldSquirrel-1.0.6-full.nupkg
+2015-08-05 14:13:13> ReleasePackage: Extracting dependent packages: []
+2015-08-05 14:13:13> ReleasePackage: Removing unnecessary data
+2015-08-05 14:13:13> DeltaPackageBuilder: Extracting .\Releases\HelloWorldSquirrel-1.0.5-full.nupkg and C:\dev\helloworld\HelloWorld\Releases\HelloWorldSquirrel-1.0.6-full.nupkg into C:\Users\jcoulter\AppData\Local\SquirrelTemp\tempb
+2015-08-05 14:13:13> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2015-08-05 14:13:13> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2015-08-05 14:13:13> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2015-08-05 14:13:13> DeltaPackageBuilder: Delta patching C:\Users\jcoulter\AppData\Local\SquirrelTemp\tempa\lib\net45\HelloWorld.exe => C:\Users\jcoulter\AppData\Local\SquirrelTemp\tempb\lib\net45\HelloWorld.exe
+2015-08-05 14:13:14> DeltaPackageBuilder: \lib\net45\HelloWorld.exe.config hasn't changed, writing dummy file
+2015-08-05 14:13:14> DeltaPackageBuilder: Delta patching C:\Users\jcoulter\AppData\Local\SquirrelTemp\tempa\lib\net45\HelloWorld.pdb => C:\Users\jcoulter\AppData\Local\SquirrelTemp\tempb\lib\net45\HelloWorld.pdb
+2015-08-05 14:13:14> DeltaPackageBuilder: \lib\net45\HelloWorld.vshost.exe.manifest hasn't changed, writing dummy file
+2015-08-05 14:13:14> DeltaPackageBuilder: \lib\net45\ICSharpCode.SharpZipLib.dll hasn't changed, writing dummy file
+2015-08-05 14:13:14> DeltaPackageBuilder: \lib\net45\Newtonsoft.Json.dll hasn't changed, writing dummy file
+2015-08-05 14:13:14> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2015-08-05 14:13:14> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2015-08-05 14:13:14> DeltaPackageBuilder: \lib\net45\System.Net.Http.Formatting.dll hasn't changed, writing dummy file
+2015-08-05 14:13:14> Program: Building embedded zip file for Setup.exe
