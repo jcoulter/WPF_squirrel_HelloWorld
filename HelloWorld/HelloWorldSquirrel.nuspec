@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>HelloWorldSquirrel</id>
+        <version>1.0.0</version>
+        <authors>jcoulter</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>My package description.</description>
+        <summary>Work</summary>
+        <releaseNotes>Just Work</releaseNotes>
+    </metadata>
+    <files>
+        <file src="HelloWorld\bin\Release\DeltaCompressionDotNet.dll" target="lib\net45\DeltaCompressionDotNet.dll" />
+        <file src="HelloWorld\bin\Release\DeltaCompressionDotNet.MsDelta.dll" target="lib\net45\DeltaCompressionDotNet.MsDelta.dll" />
+        <file src="HelloWorld\bin\Release\DeltaCompressionDotNet.PatchApi.dll" target="lib\net45\DeltaCompressionDotNet.PatchApi.dll" />
+        <file src="HelloWorld\bin\Release\HelloWorld.exe" target="lib\net45\HelloWorld.exe" />
+        <file src="HelloWorld\bin\Release\HelloWorld.exe.config" target="lib\net45\HelloWorld.exe.config" />
+        <file src="HelloWorld\bin\Release\HelloWorld.pdb" target="lib\net45\HelloWorld.pdb" />
+        <file src="HelloWorld\bin\Release\HelloWorld.vshost.exe.manifest" target="lib\net45\HelloWorld.vshost.exe.manifest" />
+        <file src="HelloWorld\bin\Release\ICSharpCode.SharpZipLib.dll" target="lib\net45\ICSharpCode.SharpZipLib.dll" />
+        <file src="HelloWorld\bin\Release\ICSharpCode.SharpZipLib.xml" target="lib\net45\ICSharpCode.SharpZipLib.xml" />
+        <file src="HelloWorld\bin\Release\Newtonsoft.Json.dll" target="lib\net45\Newtonsoft.Json.dll" />
+        <file src="HelloWorld\bin\Release\Splat.dll" target="lib\net45\Splat.dll" />
+        <file src="HelloWorld\bin\Release\Squirrel.dll" target="lib\net45\Squirrel.dll" />
+        <file src="HelloWorld\bin\Release\System.Net.Http.Formatting.dll" target="lib\net45\System.Net.Http.Formatting.dll" />
+        <file src="HelloWorld\bin\Release\System.Net.Http.Formatting.xml" target="lib\net45\System.Net.Http.Formatting.xml" />
+    </files>
+</package>

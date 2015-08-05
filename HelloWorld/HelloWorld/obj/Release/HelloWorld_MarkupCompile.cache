@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\dev\helloworld\HelloWorld\HelloWorld\obj\Debug\
+C:\dev\helloworld\HelloWorld\HelloWorld\obj\Release\
 HelloWorld
 none
 false
-DEBUG;TRACE
+TRACE
 C:\dev\helloworld\HelloWorld\HelloWorld\App.xaml
 11151548125
 
-9417177675
+5-2017746502
 18-1378623032
 MainWindow.xaml;
 

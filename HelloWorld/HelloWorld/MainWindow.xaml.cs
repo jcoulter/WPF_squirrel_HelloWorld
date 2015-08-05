@@ -35,7 +35,7 @@ namespace HelloWorld {
             do {
                 try {
 
-                    using (var mgr = new UpdateManager("file://C:/released")) {
+                    using (var mgr = new UpdateManager(@"C:\dev\helloworld\HelloWorld\Releases", "HelloWorldSquirrel")) {
                         await mgr.UpdateApp();
                     }
                 } catch (Exception) {
@@ -47,7 +47,7 @@ namespace HelloWorld {
         }
         //           
         private void Button_Click(object sender, RoutedEventArgs e) {
-            MessageBox.Show("Hello World");
+            MessageBox.Show("I updated!");
 
         }
     }
